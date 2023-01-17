@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Spotify Clone</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Montserrat');
+      .div-nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+      }
+
+      .nav-img {
+        width: 15%;
+        height: 15%;
+        display: flex;
+        justify-content: flex-start;
+      }
+      .nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+      }
+      .nav-bar li {
+        position: relative;
+        margin: 0 20px;
+        list-style: none!important;
+        display: inline-block;
+        cursor: pointer;
+      }
+      .nav-bar a {
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none!important;
+        color: black;
+      }
+      .header {
+        background-image: url("/images/landing.jpg");
+        height: 1000px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .header h1{
+        margin: 0;
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        padding-top: 250px;
+        font-family: "Montserrat", sans-serif;
+      }
+      .header p {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 21px;
+      }
+      h2 {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        font-size: 40px;
+        margin: 20px;
+        padding-top: 40px;
+        line-height: 0.5;
+      }
+      #wos {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 70px auto;
+      }
+      #wos h3 {
+        font-family: "Montserrat", sans-serif;
+        color: #0aba7c;
+        font-size: 25px;
+        vertical-align: middle;
+      }
+      #wos .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+        margin: 30px;
+      }
+      #wos img {
+        width: 150px;
+        padding: 10px;
+      }
+      #wos p {
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+      }
+      .footer {
+        background-color: #00B172;
+        color: #fff;
+        width: 100%;
+        height: 800px;
+        margin: 0 auto 50px;
+      }
+      .footer h2 {
+        font-size: 35px;
+        width: 40%;
+        padding-bottom: 10px;
+        color: white;
+        border-bottom: 3px solid white;
+        margin-left: 50px;
+        padding-top: 50px;
+
+      }
+      .footer-item {
+        display: inline-block;
+        vertical-align: middle;
+        height: 600px;
+      }
+      .footer-item h3 {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 30px;
+      }
+      .footer-item p {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 25px;
+      }
+      .footer-image {
+        width: 10%;
+        float: center;
+      }
+      .footer-image img {
+        width: 50%;
+        margin-top: 150px;
+      }
+      .footer-text {
+        width: 50%;
+        margin-left: 60px;
+      }
+      .footer-app {
+        width: 30%;
+        background-image: url("./images/spotify-app.jpg");
+        background-size: 58%;
+        background-repeat: no-repeat;
+        float: right;
+        margin-right: 50px;
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="div-nav">
+        <img src="/images/spotify-logo.png" alt="Spotify Logo" class="nav-img">
+        <nav class="nav-bar">
+        <ul>
+          <li><a href="#Premium">Premium</a></li>
+          <li><a href="#Discover">Discover</a></li>
+          <li><a href="#Help">Help</a></li>
+          <li><a href="#Download">Download</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <h1>Music for everyone.</h1>
+      <p>Spotify is now free on mobile, tablet and computer. </br>
+        Listen to the right music, wherever you are.</p>
+    </header>
+    <h2>What's on Spotify?</h2>
+    <hr color=#0aba7c width="350px">
+    <section id="wos">
+      <article class="container">
+        <img src="./images/music-icon.png" alt="Millions of Songs logo">
+        <h3>Millions of Songs</h3>
+        <p>There are millions of songs on Spotify</p>
+      </article>
+      <article class="container">
+        <img src="./images/high-quality-icon.png" alt="Millions of Songs logo">
+        <h3>HD Music</h3>
+        <p>Listen to music as if you were listening live</p>
+      </article>
+      <article class="container">
+        <img src="./images/devices-icon.png" alt="Millions of Songs logo">
+        <h3>Stream Everywhere</h3>
+        <p>Stream music on your smartphone, tablet or computer</p>
+      </article>
+    </section>
+    <section class="footer">
+      <h2>It's a yeezy as Kanye West.</h2>
+      <article class="footer-item footer-text">
+        <h3>Search</h3>
+        <p>Know what you want to listen to?<br>Just search and hit play.</p>
+        <h3>Browse</h3>
+        <p>Check out the latest charts,<br>brand new releases and great<br>playlists for right now.</p>
+        <h3>Discover</h3>
+        <p>Enjoy new music every Monday<br>with your own personal playlist.<br>Or sit back and enjoy Radio.</p>
+      </article>
+      <article class="footer-item footer-image">
+        <img src="./images/spotify-icon-white.png" alt="Spotify icon in white" class="footer-image">
+      </article>
+      <article class="footer-item footer-app">
+      </article>
+    </section>
+  </body>
+</html>
