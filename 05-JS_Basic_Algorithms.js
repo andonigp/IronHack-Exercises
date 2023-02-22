@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+// Andoni Goicoechea Pederzini
+=======
 //ANDONI GOICOECHEA PEDERZINI
+>>>>>>> 2e7e4c1b8cc1b34ace8b5e99f579f3fd278538cd
 
 // Variables setting
 console.log("I'm Ready!")
